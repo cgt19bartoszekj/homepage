@@ -5,3 +5,20 @@ html {
 *, ::after, ::before {
     box-sizing: inherit;
 }
+
+.body {
+    font-family: "Roboto", sans-serif;
+    font-size: 21px;
+    line-height: 1.5;
+    background-color: #ffffff;
+    color: #202124;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px 20px 0 20px;
+    transition: 0.3s;
+}
+
+.body--changedTheme {
+    background-color: #202124;
+    color: #ffffff;
+}
