@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pierwsza strona</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
+    integrity="sha512-oHDEc8Xed4hiW6CxD7qjbnI+B07vDdX7hEPTvn9pSZO1bcRqHp8mj9pyr+8RVC2GmtEfI2Bi9Ke9Ass0as+zpg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/body.css">
+    <link rel="stylesheet" href="css/section.css">
+    <link rel="stylesheet" href="css/navigation.css">
+    <link rel="stylesheet" href="css/table.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oleo+Script&family=Roboto&display=swap" rel="stylesheet">
+    <script defer src="js/script.js"></script>
+</head>
+
+<body class="body js-body">
+    <header class="header">
+        <div class="header__themeChange">
+            <button class="header__themeButton js-header__themeButton"><span class="header__themeName js-header__themeName">Ciemny</span> motyw</button>
+        </div>
+        <h1 class="header_title">Jakub Bartoszek - poznaj mnie lepiej</h1>
+    </header>
+    <nav class="navigation">
+        <ul class="navigation__list">
+            <li class="navigation__element">
+                <a class="navigation__link" href="#bio">Krótka biografia</a>
+            </li>
+            <li class="navigation__element">
+                <a class="navigation__link" href="#ulubiona-muzyka">Ulubiona muzyka</a>
+            </li>
+            <li class="navigation__element">
+                <a class="navigation__link" href="#dlaczego-dolaczylem">Dlaczego dołączyłem?</a>
+            </li>
+        </ul>
+    </nav>
+    <main class="main">
+        <section class="section" id="bio">
+            <h2 class="section__title">Kilka słów o mnie</h2>
+            <p class="section__paragraph">
+                Mam 19 lat, niedługo czekają mnie 20 urodziny. Jestem w klasie maturalnej w technikum informatycznym. W
+                zyciu
+                miałem wiele hobby, lecz większość była związana z komputerowym światem. Mam tu na myśli grafikę
+                komputerową,
+                montaż filmów, produkcję muzyki, gry komputerowe oraz właśnie <b>programowanie</b>. W wolnych chwilach
+                zajmuję
+                się również grą na gitarze oraz majsterkowaniem przy moim samochodzie po ostatnich <em>wybrykach
+                </em>&#x1f605;.
+            </p>
+            <img class="section__image" height="350" src="https://i.postimg.cc/hP8YnTWp/samoch-d.jpg" alt="Samochód">
+        </section>
+        <section class="section" id="ulubiona-muzyka">
+            <h2 class="section__title">Jakiej muzyki słucham?</h2>
+            <p class="section__paragraph">
+                Muzyka jest nieodłączną częścią mojego życia, słucham jej gdy jestem na dworze, uczę się lub próbuję
+                zasnąć. Mój gust muzyczny jest bardzo <em>zróżnicowany</em>. Ostatnio zdarza mi się słuchać dużo
+                nostalgicznych utworów, by powspominać poprzednie lata. Najczęściej towarzyszy mi <b>rap</b> ale często
+                na moich słuchawkach lecą również <b>popowe</b> lub <b>metalowe</b> kawałki. Zostawiam tu kilka moich
+                ulubionych piosenek w ostatnim czasie.
+            </p>
+            <table class="table">
+                <caption class="table__caption">
+                    Moje ulubione utwory
+                </caption>
+                <tr class="table__row">
+                    <th class="table__cell table__cell--header" scope="col">Tytuł</th>
+                    <th class="table__cell table__cell--header" scope="col">Wykonawca</th>
+                    <th class="table__cell table__cell--header" scope="col">Odsłuchaj</th>
+                </tr>
+                <tr class="table__row">
+                    <td class="table__cell table__cell--title">"WASTE"</td>
+                    <td class="table__cell">Kxllswxtch</td>
+                    <td class="table__cell">
+                        <a class="table__link" target="_blank"
+                            href="https://www.youtube.com/watch?v=Z0tNiaa2lQU&ab_channel=ALLBUT6">&#127911;</a>
+                    </td>
+                </tr>
+                <tr class="table__row">
+                    <td class="table__cell table__cell--title">"505"</td>
+                    <td class="table__cell">Arctic Monkeys</td>
+                    <td class="table__cell">
+                        <a class="table__link" target="_blank"
+                            href="https://www.youtube.com/watch?v=qU9mHegkTc4&ab_channel=ArcticMonkeys-Topic">&#127911;</a>
+                    </td>
+                </tr>
+                <tr class="table__row">
+                    <td class="table__cell table__cell--title">"SPIT IN MY FACE!"</td>
+                    <td class="table__cell">ThxSoMch</td>
+                    <td class="table__cell">
+                        <a class="table__link" target="_blank"
+                            href="https://www.youtube.com/watch?v=ZtCOsQqrBrs&ab_channel=ThxSoMch">&#127911;</a>
+                    </td>
+                </tr>
+                <tr class="table__row">
+                    <td class="table__cell table__cell--title">"moment"</td>
+                    <td class="table__cell">Vierre Cloud</td>
+                    <td class="table__cell">
+                        <a class="table__link" target="_blank"
+                            href="https://www.youtube.com/watch?v=1QMG2QjsjdA&ab_channel=VierreCloudVEVO">&#127911;</a>
+                    </td>
+                </tr>
+                <tr class="table__row">
+                    <td class="table__cell table__cell--title">"Let You Down"</td>
+                    <td class="table__cell">Dawid Podsiadło</td>
+                    <td class="table__cell">
+                        <a class="table__link" target="_blank"
+                            href="https://www.youtube.com/watch?v=BnnbP7pCIvQ&ab_channel=Cyberpunk2077">&#127911;</a>
+                    </td>
+                </tr>
+            </table>
+        </section>
+        <section class="section" id="dlaczego-dolaczylem">
+            <h2 class="section__title">Dlaczego dołączyłem do kursu?</h2>
+            <p class="section__paragraph">
+                Uznałem, że to najwyższa pora by zadbać o swoją przyszłość i wybrać odpowiednią ścieżkę zawodową. W
+                szkole
+                zetknąłem
+                się z wieloma zagadnieniami z <strong>HTML, CSS i JavaScript</strong>, co zachęciło mnie by zagłębić się
+                w ten temat.
+                Przypadkiem
+                trafiłem na wasz webinar i podjąłem decyzję o zostaniu <b>programistą</b>. Hobbystycznie oddtwarzałem
+                większe
+                strony by
+                nabyć nowe umiejętności, jednak uważam, że potrzebuje czegoś, co wspomoże mnie w nauce i pozwoli mi się
+                dobrze
+                przygotować do przyszłej pracy.</p>
+            <span>Liczę, że kurs pozwoli mi spełnić moje marzenia i znaleźć moją pierwszą pracę &#x1f60e;.</span>
+        </section>
+    </main>
+    <footer class="footer">
+        <p class="footer__paragraph">
+            Copyright © 2023 by Jakub Bartoszek
+        </p>
+    </footer>
+</body>
+
+</html>

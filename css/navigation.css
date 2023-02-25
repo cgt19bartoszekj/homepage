@@ -1,0 +1,35 @@
+.navigation {
+    width: 100%;
+    text-align: center;
+    margin: 50px 0;
+}
+
+.navigation__list {
+    list-style-type: none;
+}
+
+.navigation__element {
+    font-size: 20px;
+    font-weight: 700;
+    margin: 20px;
+}
+
+.navigation__link {
+    font-size: 20px;
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #151515;
+    padding: 5px 15px;
+    border-radius: 50px;
+    box-shadow: 0px 5px 10px #00000066;
+}
+
+.navigation__link:hover {
+    background-color: #e6e6e6;
+    color: #151515;
+}
+
+.navigation__link:active {
+    background-color: #ffffff;
+    color: #151515;
+}

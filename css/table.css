@@ -1,0 +1,37 @@
+.table {
+    margin: 0 auto;
+    border-collapse: collapse;
+    overflow-x: auto;
+}
+
+.table__caption {
+    color: #ffffff;
+    background-color: #151515;
+    ;
+    font-size: 15px;
+    caption-side: bottom;
+    border: 2px solid #000000;
+    border-top-width: 0;
+}
+
+.table__cell {
+    border: 2px solid #000000;
+    padding: 20px;
+}
+
+.table__cell--header {
+    color: #ffffff;
+    background-color: #151515;
+}
+
+.table__cell--title {
+    font-style: italic;
+}
+
+.table__row:hover {
+    background-color: #00000020;
+}
+
+.table__link {
+    text-decoration: none;
+}
